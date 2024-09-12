@@ -29,7 +29,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BoundingBoxDetection/BoundingBoxes.unity
     guid: e5d8c18ab0c954fd4a7aee48dffe9836
+  - enabled: 1
+    path: Assets/Custom/Wireframe Spatial Mesh.unity
+    guid: fa28b692298a3e747949241721137187
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2bf0960ddc7603945bb5dd6113a68b46,
+      type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: c52d3bb36b4c86f47af54ab9c7a02589,
       type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f8ce26fe3bc69499b9be4b2378e97a94,

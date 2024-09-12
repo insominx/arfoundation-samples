@@ -70,6 +70,9 @@ MonoBehaviour:
   - visibleName: Quest Pro
     manifestName: cambria
     enabled: 1
+  - visibleName: Quest 3
+    manifestName: eureka
+    enabled: 1
   forceRemoveInternetPermission: 0
   symmetricProjection: 0
   foveatedRenderingApi: 0
@@ -184,6 +187,26 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &-6439520720712034076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7365b139f7aec43b23d26b7a48b5a6, type: 3}
+  m_Name: MetaQuestTouchPlusControllerProfile Metro
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Meta Quest Touch Plus Controller Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.metaquestplus
+  openxrExtensionStrings: XR_META_touch_controller_plus
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &-6410796675562019135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,6 +285,46 @@ MonoBehaviour:
   featureIdInternal: com.unity.openxr.feature.foveatedrendering
   openxrExtensionStrings: XR_UNITY_foveation XR_FB_foveation XR_FB_foveation_configuration
     XR_FB_swapchain_update_state XR_FB_foveation_vulkan
+  company: Unity
+  priority: 0
+  required: 0
+--- !u!114 &-5322601447562060030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7365b139f7aec43b23d26b7a48b5a6, type: 3}
+  m_Name: MetaQuestTouchPlusControllerProfile Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Meta Quest Touch Plus Controller Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.metaquestplus
+  openxrExtensionStrings: XR_META_touch_controller_plus
+  company: Unity
+  priority: 0
+  required: 0
+--- !u!114 &-5038491032490388547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7365b139f7aec43b23d26b7a48b5a6, type: 3}
+  m_Name: MetaQuestTouchPlusControllerProfile Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Meta Quest Touch Plus Controller Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.metaquestplus
+  openxrExtensionStrings: XR_META_touch_controller_plus
   company: Unity
   priority: 0
   required: 0
@@ -418,15 +481,7 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
-  - {fileID: -2191262514806277976}
-  - {fileID: -141268443650222814}
-  - {fileID: 6655003058307513501}
-  - {fileID: -473938152397243362}
-  - {fileID: 1522119109223542334}
-  - {fileID: -3544406681352921649}
-  - {fileID: -4068162550870118579}
   - {fileID: -174203496586181408}
-  - {fileID: -4619420991776677545}
   - {fileID: -7801659428582971991}
   - {fileID: 3404733928689555002}
   - {fileID: -6521221939833996212}
@@ -434,7 +489,16 @@ MonoBehaviour:
   - {fileID: 3278704182524095921}
   - {fileID: 2054183725385504248}
   - {fileID: -7998737557669214532}
+  - {fileID: -5038491032490388547}
   - {fileID: 7710930015069995279}
+  - {fileID: -2191262514806277976}
+  - {fileID: -141268443650222814}
+  - {fileID: 6655003058307513501}
+  - {fileID: -4619420991776677545}
+  - {fileID: -473938152397243362}
+  - {fileID: 1522119109223542334}
+  - {fileID: -3544406681352921649}
+  - {fileID: -4068162550870118579}
   - {fileID: 4735522226781828458}
   - {fileID: 6820901643791731725}
   - {fileID: 2086881552731456778}
@@ -443,6 +507,9 @@ MonoBehaviour:
   - {fileID: 212123712794224711}
   - {fileID: 361921309181781203}
   m_renderMode: 1
+  m_autoColorSubmissionMode: 1
+  m_colorSubmissionModes:
+    m_List: 00000000
   m_depthSubmissionMode: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
@@ -602,6 +669,7 @@ MonoBehaviour:
   - {fileID: 3105945882410040376}
   - {fileID: -4691393479084242311}
   - {fileID: -1233785770137191969}
+  - {fileID: -5322601447562060030}
   - {fileID: 3697074055548739330}
   - {fileID: -6117782762155299384}
   - {fileID: -1621390397607523507}
@@ -612,6 +680,9 @@ MonoBehaviour:
   - {fileID: -1370842043953272065}
   - {fileID: 773115482695692353}
   m_renderMode: 1
+  m_autoColorSubmissionMode: 1
+  m_colorSubmissionModes:
+    m_List: 00000000
   m_depthSubmissionMode: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
@@ -874,6 +945,9 @@ MonoBehaviour:
   features:
   - {fileID: 3253186094911892302}
   m_renderMode: 1
+  m_autoColorSubmissionMode: 1
+  m_colorSubmissionModes:
+    m_List: 00000000
   m_depthSubmissionMode: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
@@ -1386,6 +1460,7 @@ MonoBehaviour:
   - {fileID: -1327069227385097390}
   - {fileID: 3682503879219619774}
   - {fileID: 7416808518539134477}
+  - {fileID: -6439520720712034076}
   - {fileID: 7234696220307620150}
   - {fileID: 5100082522341051977}
   - {fileID: 866413237800763623}
@@ -1395,6 +1470,9 @@ MonoBehaviour:
   - {fileID: 174300468823547301}
   - {fileID: 6554812549001063824}
   m_renderMode: 1
+  m_autoColorSubmissionMode: 1
+  m_colorSubmissionModes:
+    m_List: 00000000
   m_depthSubmissionMode: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
