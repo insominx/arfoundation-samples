@@ -576,7 +576,7 @@ MonoBehaviour:
   m_PoseEvent: {fileID: 11400000, guid: b4c22be57749c834fb731b76b2e2e0d2, type: 2}
   m_ProjectilePrefab: {fileID: 9183901874634772596, guid: 133f41d7c73924e42a428ccaa1975ea6,
     type: 3}
-  m_LaunchSpeed: 25
+  m_LaunchSpeed: 10
 --- !u!114 &1742060025
 MonoBehaviour:
   m_ObjectHideFlags: 0
